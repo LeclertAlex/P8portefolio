@@ -1,0 +1,288 @@
+/* globalStyles.css */
+
+/* Réinitialisation CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+P{
+  font-size: 1.5rem;
+}
+
+/* Liens */
+a {
+  text-decoration: none;
+  color: #0073e6;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #005bb5;
+}
+
+/* Listes */
+ul {
+  list-style: disc;
+  padding-left: 2rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Titres */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+h3 {
+  color: #222;
+  border-bottom: 2px solid #ff6060;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  margin-top: 1rem;
+  color: #444;
+}
+
+/* Textes */
+p {
+  margin-bottom: 1rem;
+}
+
+strong {
+  color: #ff6060;
+}
+
+/* Conteneur principal */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* En-tête */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 130px;
+  height: auto;
+  margin-right: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ff6060;
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+  nav ul li {
+      margin-left: 3rem;
+  }
+  ul {
+    padding-left: 0;
+}
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1rem 1rem;
+}
+}
+
+@media (max-width: 425px) {
+  nav ul li {
+      margin-left: 1rem;
+  }
+  h1, h2, h3, h4, h5, h6 {
+      font-size: 15px;
+  }
+  ul {
+      padding-left: 0;
+  }
+  header {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      padding: 0.5rem 1rem;
+  }
+  .logo img {
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+  }
+}
+
+/* PAGE404 */
+.page404-container {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.page404-title {
+  font-size: 20rem;
+  color: #ff6060;
+  margin: 0;
+}
+
+.page404-message {
+  font-size: 2rem;
+  color: #333;
+  margin: 2rem 0;
+}
+
+.page404-link {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  background-color: #ff6060;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+
+.page404-link:hover {
+  background-color: #d94f4f;
+}
+/* PAGE404 responsif */
+@media (max-width: 425px) {
+  .page404-title {
+    font-size: 10rem;
+  }
+}
+
+/* footer  */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.footer-logo img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.footer-contact p,
+.footer-legal p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.footer-contact a,
+.footer-legal a {
+  color: #ff6060;
+  text-decoration: none;
+}
+
+.footer-contact a:hover,
+.footer-legal a:hover {
+  text-decoration: underline;
+}
+
+.footer-social a {
+  color: #fff;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.footer-social a:hover {
+  color: #ff6060;
+}
+
+/* LegalMention */
+
+.LegalMention-container {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.LegalMention-link {
+  font-size: 1.5rem;
+  background-color: #ff6060;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  display: flex; 
+  justify-content: center; 
+}
+
+.LegalMention{
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+}
+
+
+.LegalMention-container P{
+  font-size: 1.5rem;
+}
+
+.LegalMention-container h2{
+  font-size: 5rem;
+}
+
+/* LegalMention */
+@media (max-width: 425px) {
+  .LegalMention-container h2{
+    font-size: 4rem;
+  }
+  .LegalMention{
+    width: 20rem;
+  }
+  .LegalMention-container P{
+    font-size: 1rem;
+  }
+}
