@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Home from "./cadres/Home"; // Mise à jour du chemin
 import CVFrontEnd from "./cadres/CVFrontEnd";
 import CVBackEnd from "./cadres/CVBackEnd";
@@ -12,9 +12,10 @@ import LegalMentions from "./cadres/LegalMentions";
 import ProjectsPage from "./cadres/ProjectsPage";
 
 
+
 function App() {
   return (
-    <Router>
+    <Router basename="/P8portefolio">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cv-global" element={<CVGlobal/>} />
