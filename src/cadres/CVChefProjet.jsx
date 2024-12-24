@@ -6,7 +6,7 @@ import "../styles/cvGlobal.css"; // Import du style global pour les CV
 import photo from "../assets/Snapchat-alexandre marriage.jpg"; // Ajoute ton image ici
 const { competences: globalCompetences } = cvData.globalCompetences;
 
-const CVFrontEnd = () => {
+const CVBackEnd = () => {
   const { title, objectifs, competences, experiences, softSkills,postesVise, formations, centresinterets } = cvData.chefProjet;
 
   return (
@@ -124,4 +124,4 @@ const CVFrontEnd = () => {
   );
 };
 
-export default CVFrontEnd;
+export default CVBackEnd;

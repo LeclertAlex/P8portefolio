@@ -12,9 +12,8 @@ const Header = () => {
       <nav>
         <ul>
           <li><Link to="/">Accueil</Link></li>
-          <li><Link to="/cv-frontend">CV Front-end</Link></li>
-          <li><Link to="/cv-backend">CV Back-end</Link></li>
-          <li><Link to="/cv-chef-projet">CV Chef de Projet</Link></li>
+          <li><Link to="/cv-global">CV </Link></li>
+          <li><Link to="/projects">Projets</Link></li>
         </ul>
       </nav>
     </header>

@@ -1,9 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import "./styles/globalStyles.css";// Import des styles globaux
-import "./styles/cvGlobal.css";
-import './index.css';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./styles/globalStyles.css"; // Styles globaux
+import "./styles/cvGlobal.css"; // Styles spécifiques
+import App from "./App"; // Composant principal
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

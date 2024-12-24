@@ -229,8 +229,10 @@
   }
 
   .section-objectifs-presentation li{
+    margin-bottom: 1rem;
     width: 80rem;
     font-size: 1.5rem;
+    text-align: left;
   }
 
   /* Sections objectifs presentation */
@@ -268,8 +270,10 @@
   }
 
   .section-competance-cles li{
+    margin-bottom: 1rem;
     width: 80rem;
     font-size: 1.5rem;
+    text-align: left;
   }
 
   /* Sections competance cles */
@@ -308,8 +312,10 @@
   }
 
   .section-projets-presentation li{
+    margin-bottom: 1rem;
     width: 80rem;
     font-size: 1.5rem;
+    text-align: left;
   }
 
   /* Sections projets presentation */
@@ -351,8 +357,10 @@
   }
 
   .section-stages-presentation li{
+    margin-bottom: 1rem;
     width: 80rem;
     font-size: 1.5rem;
+    text-align: left;
   }
 
   /* Sections stages presentation */
@@ -382,3 +390,109 @@
         font-size: 11px;
     }
 }
+
+/* Conteneur principal */
+.cv-soustop {
+  display: flex;
+  justify-content: space-between; /* Distribution égale */
+  justify-content: center;
+  gap: 2rem; /* Espace entre les colonnes */
+  margin-top: 2rem;
+}
+
+/* Section offre  */
+.sectionoffre {
+  display: flex;
+  justify-content: space-between; /* Espacement égal entre les liens */
+  margin-bottom: 1.5rem; /* Espacement avec les autres sections */
+  text-align: center;
+}
+
+.sectionoffre a {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.sectionoffre P{
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.sectionoffre a:hover {
+  text-decoration: underline; /* Ajoute un soulignement au survol */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cv-soustop {
+    flex-direction: column; /* Empile les colonnes */
+  }
+
+  .sectionoffre P{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sectionoffre {
+    flex-direction: column; /* Les liens s'empilent */
+    gap: 1rem; /* Espacement vertical entre les liens */
+  }
+
+  .sectionoffre a {
+    flex: none; /* Les liens prennent leur largeur naturelle */
+  }
+}
+
+/* projects section */
+.projects-section {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h2 {
+  font-size: 1.5rem;
+  color: #ff6060;
+  margin-bottom: 1rem;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.project-card a {
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+
