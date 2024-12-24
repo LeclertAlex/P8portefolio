@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/P8portefolio/static/css/main.85688c8c.css",
+    "main.js": "/P8portefolio/static/js/main.5b5a5cbd.js",
+    "static/js/511.bc672a93.chunk.js": "/P8portefolio/static/js/511.bc672a93.chunk.js",
+    "static/media/Calque_logo leclert alexandre.png": "/P8portefolio/static/media/Calque_logo leclert alexandre.e4521b656eba1e9ad707.png",
+    "static/media/Snapchat-alexandre marriage.jpg": "/P8portefolio/static/media/Snapchat-alexandre marriage.0842b2e8bb68fa0e9f32.jpg",
+    "static/media/IMG-20221117-alexandre orale.jpg": "/P8portefolio/static/media/IMG-20221117-alexandre orale.eb5127d7839816be8ee8.jpg",
+    "index.html": "/P8portefolio/index.html",
+    "main.85688c8c.css.map": "/P8portefolio/static/css/main.85688c8c.css.map",
+    "main.5b5a5cbd.js.map": "/P8portefolio/static/js/main.5b5a5cbd.js.map",
+    "511.bc672a93.chunk.js.map": "/P8portefolio/static/js/511.bc672a93.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85688c8c.css",
+    "static/js/main.5b5a5cbd.js"
+  ]
+}
